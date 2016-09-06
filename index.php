@@ -20,9 +20,11 @@
 		<?php endforeach ?>
 	</div>
 
-	<div class="video">
-		<div>
-			<embed height="348" width="550" class="player" allowFullScreenInteractive="true" 
+	<div class="video-loading">
+		<div class="loading"></div>
+
+		<div class="video">
+			<embed height="452.4" width="715" class="player" allowFullScreenInteractive="true" 
 				pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" 
 				AllowScriptAccess="always" rel="noreferrer" 
 				flashvars="type=page&url=http://www.acfun.tv/v/ac2359452" 
