@@ -4,7 +4,7 @@
 
 在线地址：
 
-> http://localhost/acfun/
+> http://kof666.com/acfun/
 
 ---
 
