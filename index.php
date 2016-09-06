@@ -24,7 +24,7 @@
         <div class="loading"></div>
 
         <div class="video">
-            
+
         </div>
     </div>
 </body>
