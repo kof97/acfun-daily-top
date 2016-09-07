@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta name="author" content="Hege Refsnes">
+    <meta name="description" content="AcFun 每日排行">
+    <meta name="keywords" content="A站,acfun,弹幕,视频,二次元,宅,排行榜,动漫,影视">
+    <meta name="author" content="Arno 阿诺">
 
     <title>Arno-acfun 每日排行</title>
     <link rel="stylesheet" href="./dist/styles/style.min.css">
