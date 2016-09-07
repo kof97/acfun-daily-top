@@ -10,6 +10,7 @@
 
 	<div class="indexer shadow">
        	<form action="" method="get">
+			<span>acfun 每日排行 </span>
 	    	<input type="text" name="time" onClick="WdatePicker({minDate:'2016-09-05',maxDate:'<?php echo $now; ?>'})" value="<?php echo $time; ?>"/>
        		<input type="submit" value="submit">
        	</form>
