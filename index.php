@@ -2,27 +2,31 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Hege Refsnes">
+
     <title>Arno-acfun 每日排行</title>
     <link rel="stylesheet" href="./dist/styles/style.min.css">
 </head>
 <body>
     <?php require './query.php'; ?>
 
-	<div class="indexer shadow">
-       	<form action="" method="get">
-			<span>AcFun 每日排行 </span>
-	    	<input type="text" name="time" onClick="WdatePicker({minDate:'2016-09-05',maxDate:'<?php echo $now; ?>'})" value="<?php echo $time; ?>"/>
-       		<input type="submit" value="submit">
-       	</form>
+    <div class="indexer shadow">
+        <form action="" method="get">
+            <span>AcFun 每日排行</span>
+            <input type="text" name="time" onClick="WdatePicker({minDate:'2016-09-05',maxDate:'<?php echo $now; ?>'})" value="<?php echo $time; ?>"/>
+            <input type="submit" value="submit">
+        </form>
     </div>
 
-	<div class="row"></div>
-	<div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
 
     <div class="main">
-		<?php if (count($categorys) < 1): ?>
-			<h2>没有找到 <?php echo $time; ?> 的内容，资源是从 2016-09-05 号才开始的哦 ~ ~ ~</h2>
-		<?php endif ?>
+        <?php if (count($categorys) < 1): ?>
+            <h2>没有找到 <?php echo $time; ?> 的内容，资源是从 2016-09-05 号才开始的哦 ~ ~ ~</h2>
+        <?php endif ?>
 
         <?php foreach ($categorys as $key => $value): ?>
             <?php $category = $value['category']; ?>
