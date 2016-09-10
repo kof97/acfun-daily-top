@@ -1,4 +1,4 @@
-# acfun Daily Top
+# AcFun Daily Top
 
 ---
 
